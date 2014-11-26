@@ -1,0 +1,32 @@
+body {
+  padding-top: 110px;
+}
+.navbar {
+  background-color: #00ced1;
+}
+.navbar .navbar-nav {
+  color: #eee;
+}
+.navbar .navbar-header a.navbar-brand {
+  color: #eee;
+}
+.navbar .navbar-header a.navbar-brand h6 {
+  color: #eee;
+}
+footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+footer p {
+  border-top: 1px solid #d7e0e2;
+}
+.navbar-form {
+  margin-top: 25px;
+  a: #eee;
+}
+.navbar-form .form-group {
+  margin-left: 10px;
+}
+.navbar-form button {
+  margin-left: 10px;
+}

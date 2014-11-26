@@ -1,6 +1,7 @@
-var app = angular.module('app', ['ngResource', 'ngRoute']);
+(function() {
+	var app = angular.module('app', ['ngResource', 'ngRoute']);
 
-app.config(function($routeProvider, $locationProvider) {
+	app.config(function($routeProvider, $locationProvider) {
 	// $locationProvider.html5Mode(true|false); or
 	$locationProvider.html5Mode({
 		enabled: true,
@@ -8,11 +9,8 @@ app.config(function($routeProvider, $locationProvider) {
 	});
 	$routeProvider
 	.when('/', { 
-		templateUrl: '/partials/main',
-		controller: 'mainCtrl'
+		templateUrl: '/partials/main/main',
+		controller: 'mvMainCtrl'
 	});
 });
-
-app.controller('mainCtrl', function($scope) {
-	$scope.myVar = "Hello Angular";
-});
+})();
